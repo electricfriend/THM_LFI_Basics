@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [[ "$1" = "" ]]
+then 
+	echo "Usage: bash $0 <ip address>"
+	exit
+fi 
+
 fp="etc/passwd"
 echo "[+] searching for $fp..."
 
