@@ -2,7 +2,7 @@
 
 if [[ "$1" = "" ]]
 then 
-	echo "Usage: bash $0 <ip address>"
+	echo 'Usage: bash $0 "<ip address>"'
 	exit
 fi 
 
